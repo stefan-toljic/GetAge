@@ -7,36 +7,12 @@ Ask user to enter team member name. If the member is male write his age to conso
 """
 
 team_members = [
-    {
-        "name": "Andrea",
-        "age": 40,
-        "gender": 'f'
-    },
-    {
-        "name": "Loren",
-        "age": 26,
-        "gender": 'f'
-    },
-    {
-        "name": "Paul",
-        "age": 32,
-        "gender": 'm'
-    },
-    {
-        "name": "Mike",
-        "age": 45,
-        "gender": 'm'
-    },
-    {
-        "name": "Simon",
-        "age": 25,
-        "gender": 'm'
-    },
-    {
-      "name": "Frank",
-      "age": 30,
-      "gender": 'm'
-    }
+    { "name": "Andrea", "age": 40, "gender": 'f' },
+    { "name": "Loren", "age": 26, "gender": 'f' },
+    { "name": "Paul", "age": 32, "gender": 'm' },
+    { "name": "Mike", "age": 45, "gender": 'm' },
+    { "name": "Simon", "age": 25, "gender": 'm' },
+    { "name": "Frank", "age": 30, "gender": 'm' }
 ]
 
 def check_gender(member):
